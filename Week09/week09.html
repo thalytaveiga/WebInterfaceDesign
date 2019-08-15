@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<!--Created by Thalyta Veiga - Created on: Nov 07, 2018-->
+<html>
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>Week 09 - Class Example</title>
+<link href="week09Styles.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+footer a {
+	font-size: small;
+	color: #FFFFFF;
+	padding: 3px;
+	margin: 2px;
+}
+.auto-style1 {
+	font-size: medium;
+}
+</style>
+</head>
+
+<body>
+<div id="allPage">
+<img alt="Centennial College" height="209" src="Images/CC50thAnniversary.jpg" width="200"><h1>Centennial College - Registration Form</h1>
+<form action="mailto:mailme@mailme.ca" method="post">
+	<table style="width: 100%; height: 412px;">
+		<tr>
+			<td class="fieldLabel" style="width: 421px">First Name: </td>
+			<td style="width: 737px"><input name="txtFirstName" size="25" tabindex="1" type="text"></td>
+		</tr>
+		<tr>
+			<td class="fieldLabel" style="width: 421px">Last Name:</td>
+			<td style="width: 737px"><input name="txtLastName" size="25" tabindex="3" type="text"></td>
+		</tr>
+		<tr>
+			<td class="fieldLabel" style="width: 421px">Email: </td>
+			<td style="width: 737px"><input name="txtEmail" size="30" tabindex="5" type="text"></td>
+		</tr>
+		<tr>
+			<td class="fieldLabel" style="width: 421px">Create Pwd:</td>
+			<td style="width: 737px"><input name="txtPwd" size="16" tabindex="7" type="password"></td>
+		</tr>
+		<tr>
+			<td class="fieldLabel" style="width: 421px">Confirm Pwd:</td>
+			<td style="width: 737px">
+			<input name="txtConfirmPwd" size="16" tabindex="9" type="password"></td>
+		</tr>
+		<tr>
+			<td class="fieldLabel" style="width: 421px">Gender:</td>
+			<td style="width: 737px"><input checked="true" name="rdGender" tabindex="11" type="radio" value="male">M&nbsp;
+			<input name="rdGender" tabindex="13" type="radio" value="female">F</td>
+		</tr>
+		<tr>
+			<td class="fieldLabel" style="width: 421px">Education:</td>
+			<td style="width: 737px">
+			<input checked="true" name="rdEducation" tabindex="15" type="radio" value="secondary">Secondary
+			<input name="rdEducation" tabindex="17" type="radio" value="college">College
+			<input name="rdEducation" tabindex="19" type="radio" value="undergrad">Undergrad
+			<input name="rdEducation" tabindex="21" type="radio" value="graduated">Graduated
+			<input name="rdEducation" tabindex="23" type="radio" value="postgrad">Postgrad</td>
+		</tr>
+		<tr>
+			<td class="fieldLabel" style="width: 421px">Computer Knowledge:</td>
+			<td style="width: 737px"><input name="chkOS" tabindex="25" type="checkbox" value="OS">OS
+			<input name="chkNetwork" tabindex="27" type="checkbox" value="Network">Networking
+			<input name="chkProgramming" tabindex="29" type="checkbox" value="Programming">Programming
+			<input name="chkWebDesign" tabindex="31" type="checkbox" value="WebDesign">Web 
+			Design <input name="chkDB" tabindex="33" type="checkbox" value="DB">DB</td>
+		</tr>
+		<tr>
+			<td class="fieldLabel" style="width: 421px">Select courses:</td>
+			<td style="width: 737px">
+			<select multiple="multiple" name="Select1" size="3" tabindex="35">
+			<option value="COMP213 Web Interface Design">COMP213 Web Interface Design
+			</option>
+			<option value="COMP125 Client Side Development">COMP125 Client Side Development
+			</option>
+			<option value="COMP100 Programming I">COMP100 Programming I</option>
+			<option value="COMP255 Systems I">COMP255 Systems I</option>
+			</select></td>
+		</tr>
+		<tr>
+			<td class="fieldLabel" style="width: 421px">Special Requests: </td>
+			<td style="width: 737px"><textarea cols="50" name="txtSpecialReq" rows="7" tabindex="39">--- Please let us know about any special learning needs we can help you with (assisted note taking, free after class tutoring) ---</textarea></td>
+		</tr>
+		<tr>
+			<td class="fieldLabel" style="width: 421px">
+			<input name="btnSubmit" tabindex="41" type="submit" value="Register Now"></td>
+			<td style="width: 737px">
+			<input name="btnReset" tabindex="43" type="reset" value="Clear Form"></td>
+		</tr>
+	</table>
+	<br>
+	</form>
+	<footer><br>&nbsp;<span class="auto-style1"><a class="auto-style1" href="../index.html">Back to index</a></span>
+	<p>&nbsp; &copy;&nbsp;Copyright Thalyta Veiga - Class Example Week 09 - COMP213</p>
+	</footer>
+</div>
+</body>
+
+</html>

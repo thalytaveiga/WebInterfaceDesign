@@ -1,0 +1,31 @@
+﻿body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #808080;
+	background-image: url('Images/trilliumgradient.png');
+}
+h1 {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	color: #888814;
+	font-size: x-large;
+	font-variant: small-caps;
+	text-transform: capitalize;
+}
+.fieldLabel {
+	vertical-align: top;
+	text-align: right;
+}
+#allPage {
+	width: 980px;
+	border: thin solid #808000;
+	border-radius: 5px;
+	box-shadow: 3px 3px #C0C0C0;
+	vertical-align: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+footer {
+	height: 80px;
+	background-color: #838005;
+	color: #FFFFFF;
+	font-size: x-small;
+}

@@ -1,0 +1,42 @@
+﻿body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: gray;
+	background-color: lavender;
+}
+h3,h4 {
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	text-transform: capitalize;
+	font-variant: small-caps;
+	color: #49166D;
+}
+a {
+	color: #49166D;
+	text-decoration: none;
+}
+a:hover {
+	background-color: #EBFFD7;
+	text-decoration: underline overline;
+}
+
+/*Alternate rows in plans table*/
+.oddRow {
+	background-color: #EBFFD7;
+}
+.evenRow {
+	background-color: #FFFFFF;
+}
+td {
+	vertical-align: top;
+}
+#contactus {
+	vertical-align: bottom;
+	text-align: right;
+}
+#allPage {
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#phoneTable {
+	border: medium dotted #49166D;
+}

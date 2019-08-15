@@ -1,0 +1,61 @@
+﻿<style type="text/css">
+.background_banner {
+	background-color: #D5ECB3;
+	color: #FFFFFF;
+}
+.backgroundcolor {
+	background-image: url('Images/trilliumgradient.png');
+	font-family: Arial, Helvetica, sans-serif;
+	background-repeat: repeat;
+}
+.Text {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666666;
+}
+h2 {
+	background-color: #D5ECB3;
+}
+#allPage {
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.background_banner {
+	background-color: #D5ECB3;
+}
+
+footer {
+	background-color: #5B733C;
+	color: #FFFFFF;
+	background-image: url('Images/trilliumfoot.gif');
+	background-repeat: no-repeat;
+	background-position: right;
+	height: 80px;
+}
+footer a {
+	padding: 3px;
+	margin: 2px;
+	color: #FFFFFF;
+	text-decoration: none;
+	bottom: 0px;
+	top: -2px;
+}
+footer a:hover {
+	padding: 2px;
+	box-shadow: 2px 1px #E5F6CD;
+	color: #5B733C;
+	background-color: #E5F6CD;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#copyright {
+	padding: 3px;
+	color: #FFFFFF;
+	font-size: x-small;
+}
+.button {
+	border-width: 0px;
+}
+ul {
+	list-style-image: url('Images/trillium.gif');
+}
+</style>
