@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+<meta content="en-us" http-equiv="Content-Language">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>Assignment 4</title>
+<meta content="COMP213, form, HTML, CSS" name="keywords">
+<meta content="Assignment for COMP213" name="description">
+<link href="assignment4.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+.auto-style1 {
+	border-width: 0px;
+}
+</style>
+</head>
+
+<body id="allPage">
+
+<p>
+<table style="width: 100%">
+	<tr>
+		<td id="logo">
+		<a href="https://www.centennialcollege.ca/">
+		<img alt="Centennial College Logo" height="125" src="Images/logo.gif" width="300" class="auto-style1"></a></td>
+		<td id="h1">Continuing Education Course<br>Instructor Evaluation</td>
+	</tr>
+</table>
+</p>
+<p>Please, read each statement carefully and consider each 
+		one individually. Give only one answer for each question.</p>
+<form action="mailto:lemosveiga@gmail.com" method="post">
+<p>Course Name / Code:
+					<input name="txtCourseName" size="50" tabindex="1" type="text"></p>
+<p>Semester:
+					<input name="rdSemester" tabindex="3" type="radio" value="Fall"> Fall
+					<input name="rdSemester" tabindex="5" type="radio" value="Winter">Winter
+					<input name="rdSemester" tabindex="7" type="radio" value="SpringSummer">Spring/Summer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+		Year:
+					<input name="txtYear" size="10" tabindex="9" type="text"></p>
+					
+<fieldset>
+<legend>Instructor</legend>
+<p>How would you rate the instructor's: </p>
+<p><label for="rdKnowledgeInstructor">1. <strong>Knowledge</strong> of subject?</label>
+					<input id="rdKnowledgeInstructor" name="rdKnowledgeInstructor" tabindex="13" type="radio" value="Excellent">Excellent&nbsp;&nbsp;&nbsp; 
+					<input name="rdKnowledgeInstructor" type="radio" value="Good" tabindex="15">Good&nbsp;&nbsp;&nbsp; 
+					<input name="rdKnowledgeInstructor" type="radio" value="Fair" tabindex="17">Fair&nbsp;&nbsp;&nbsp; 
+					<input name="rdKnowledgeInstructor" type="radio" value="NotSatisfatory" tabindex="19"> Not satisfatory</p>
+<p><label for="rdHelpfulness">2. <strong>Helpfulness</strong>?</label> 
+					<input id="rdHelpfulness" name="rdHelpfulness" tabindex="21" type="radio" value="Excellent">Excellent&nbsp;&nbsp;&nbsp; 
+					<input name="rdHelpfulness" type="radio" value="Good" tabindex="23">Good&nbsp;&nbsp;&nbsp; 
+					<input name="rdHelpfulness" type="radio" value="Fair" tabindex="25">Fair&nbsp;&nbsp;&nbsp; 
+					<input name="rdHelpfulness" type="radio" value="NotSatisfatory" tabindex="27"> Not satisfatory</p>
+<p><label for="rdCourtesy"><strong>3. Courtesy and respect</strong> for all students?</label> 
+					<input id="rdCourtesy" name="rdCourtesy" tabindex="29" type="radio" value="Excellent">Excellent&nbsp;&nbsp;&nbsp; 
+					<input name="rdCourtesy" type="radio" value="Good" tabindex="31">Good&nbsp;&nbsp;&nbsp; 
+					<input name="rdCourtesy" type="radio" value="Fair" tabindex="33">Fair&nbsp;&nbsp;&nbsp; 
+					<input name="rdCourtesy" type="radio" value="NotSatisfatory" tabindex="35"> Not satisfatory</p>
+<p><label for="rdCommunication">4. <strong>Communication</strong> skills?</label> 
+					<input id="rdCommunication" name="rdCommunication" tabindex="37" type="radio" value="Excellent">Excellent&nbsp;&nbsp;&nbsp; 
+					<input name="rdCommunication" type="radio" value="Good" tabindex="39">Good&nbsp;&nbsp;&nbsp; 
+					<input name="rdCommunication" type="radio" value="Fair" tabindex="41">Fair&nbsp;&nbsp;&nbsp; 
+					<input name="rdCommunication" type="radio" value="NotSatisfatory" tabindex="43"> Not satisfatory</p>
+<p><label for="rdPerformance">5. Overall <strong>performance</strong>?</label> 
+					<input id="rdPerformance" name="rdPerformance" tabindex="45" type="radio" value="Excellent">Excellent&nbsp;&nbsp;&nbsp; 
+					<input name="rdPerformance" type="radio" value="Good" tabindex="47">Good&nbsp;&nbsp;&nbsp; 
+					<input name="rdPerformance" type="radio" value="Fair" tabindex="49">Fair&nbsp;&nbsp;&nbsp; 
+					<input name="rdPerformance" type="radio" value="NotSatisfatory" tabindex="51"> Not satisfatory</p>
+</fieldset>
+<fieldset>
+<legend>Course</legend>					
+<p><label for="rdCourseMaterials">6. How would you rate the <strong>course materials</strong>?</label> 
+					<input id="rdCourseMaterials" name="rdCourseMaterials" tabindex="53" type="radio" value="Excellent">Excellent&nbsp;&nbsp;&nbsp; 
+					<input name="rdCourseMaterials" type="radio" value="Good" tabindex="55">Good&nbsp;&nbsp;&nbsp; 
+					<input name="rdCourseMaterials" type="radio" value="Fair" tabindex="57">Fair&nbsp;&nbsp;&nbsp; 
+					<input name="rdCourseMaterials" type="radio" value="NotSatisfatory" tabindex="59"> Not satisfatory</p>
+<p><label for="rdExpectations">7. How much did the course meet your <strong>expectations</strong>?</label>
+					<input id="rdExpectations" name="rdExpectations" tabindex="61" type="radio" value="Excellent">Excellent&nbsp;&nbsp;&nbsp; 
+					<input name="rdExpectations" type="radio" value="Good" tabindex="63">Good&nbsp;&nbsp;&nbsp; 
+					<input name="rdExpectations" type="radio" value="Fair" tabindex="65">Fair&nbsp;&nbsp;&nbsp; 
+					<input name="rdExpectations" type="radio" value="NotSatisfatory" tabindex="67"> Not satisfatory</p>
+<p>
+<label for="rdCourseOverall">8. How would you rate this course <strong>(overall)</strong>?</label> 
+					<input id="rdCourseOverall" name="rdCourseOverall" tabindex="69" type="radio" value="Excellent">Excellent&nbsp;&nbsp;&nbsp; 
+					<input name="rdCourseOverall" type="radio" value="Good" tabindex="71">Good&nbsp;&nbsp;&nbsp; 
+					<input name="rdCourseOverall" type="radio" value="Fair" tabindex="73">Fair&nbsp;&nbsp;&nbsp; 
+					<input name="rdCourseOverall" type="radio" value="NotSatisfatory" tabindex="75"> Not satisfatory</p>
+</fieldset>
+<fieldset>
+<legend>General Information</legend>
+<p><label for="rdCourseOutline">9. Was the <strong>course outline</strong> 
+					reviewed/explained at the beginning of your course?</label>
+					<input id="rdCourseOutline" name="rdCourseOutline" tabindex="77" type="radio" value="Yes">Yes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+					<input name="rdCourseOutline" type="radio" value="No" tabindex="79">No&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+					<input name="rdCourseOutline" type="radio" value="NotSure" tabindex="81">Not sure</p>
+<p>&nbsp;</p>
+<p><label for="rdRecommend">10. Would you <strong>recommend</strong> 
+					this course to a friend with the same interests?</label>
+					<input id="rdRecommend" name="rdRecommend" tabindex="83" type="radio" value="Yes">Yes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+					<input name="rdRecommend" type="radio" value="No" tabindex="85">No&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+					<input name="rdRecommend" type="radio" value="NotSure" tabindex="87">Not sure</p>
+</fieldset>
+<fieldset>
+<legend>Any other comments</legend>
+<p><label for="txtCourseBestThing">11. What is the best thing of this course? </label>
+					&nbsp;<textarea id="txtCourseBestThing" cols="30" name="txtCourseBestThing" rows="5" tabindex="89"></textarea></p>
+<p><label for="txtImproveCourse">12. How could we improve this course? </label>&nbsp;<textarea id="txtImproveCourse" cols="30" name="txtImproveCourse" rows="5" tabindex="91"></textarea></p>
+<p><label for="txtComments">13. Other comments: </label>
+					&nbsp;<textarea id="txtComments" cols="30" name="txtComments" rows="5" tabindex="93"></textarea></p>
+<p><label><input name="btnSubmit" tabindex="39" type="submit" value="Complete Registration Now"></label>&nbsp;
+	<input name="btnReset" tabindex="41" type="reset" value="Start Again">
+</p>
+</form>
+</fieldset>
+<p id="tablefooter"><em id="logo0">Thank you! We pay 
+					attention to your feedback!></p>
+<p id="tablefooter"><em id="tablefooter0">
+					<span class="auto-style4">Web:
+					<a href="https://www.centennialcollege.ca/programs-courses/part-time/">
+					https://www.centennialcollege.ca/programs-courses/part-time/</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+					Email: 
+<a href="mailto:continuingeducation@centennialcollege.ca">continuingeducation@centennialcollege.ca</a></span></em></p>
+<p>
+&nbsp;</p>
+<footer>
+	<p><a href="../index.html">Back to index</a></p>
+	<p id="copyright">&copy;&nbsp;Copyright Thalyta Veiga - COMP213 - Fall 2018</p>
+</footer>
+</body>
+
+</html>
